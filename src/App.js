@@ -14,6 +14,7 @@ import ManagePedido from './components/ManagePedido'
 import Pedidos from './components/Pedidos'
 
 import { Switch, Route } from 'react-router-dom'
+import Messages from './components/Messages'
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
         <Route exact path='/pedido' component={ManagePedido} />
       </Switch>
       <Rodape />
+      <Messages/>
     </div>
   );
 }
